@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyAppToBuddyBuild" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyProfileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG" translatesAutoresizingMaskIntoConstraints="NO" id="BFL-k8-J0h">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG2" translatesAutoresizingMaskIntoConstraints="NO" id="BFL-k8-J0h">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qe-47-zQM">
@@ -84,7 +84,7 @@
         <!--Who I Am-->
         <scene sceneID="AGp-HL-xRX">
             <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="BHj-Kp-fHS" customClass="WhoIAmVC" customModule="MyAppToBuddyBuild" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="BHj-Kp-fHS" customClass="WhoIAmVC" customModule="MyProfileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MJW-8p-2P8"/>
                         <viewControllerLayoutGuide type="bottom" id="hPY-5P-68e"/>
@@ -93,7 +93,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG" translatesAutoresizingMaskIntoConstraints="NO" id="Gh6-GA-8Co">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG2" translatesAutoresizingMaskIntoConstraints="NO" id="Gh6-GA-8Co">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuu-Xk-s7G">
@@ -188,7 +188,7 @@
         <!--My Skills-->
         <scene sceneID="hcp-US-vCW">
             <objects>
-                <viewController id="cpp-WW-01R" customClass="MySkillsViewController" customModule="MyAppToBuddyBuild" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cpp-WW-01R" customClass="MySkillsViewController" customModule="MyProfileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9st-tV-UwZ"/>
                         <viewControllerLayoutGuide type="bottom" id="0Uu-qH-3lX"/>
@@ -197,7 +197,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG" translatesAutoresizingMaskIntoConstraints="NO" id="rhH-4R-wx9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG2" translatesAutoresizingMaskIntoConstraints="NO" id="rhH-4R-wx9">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beckend_clipart" translatesAutoresizingMaskIntoConstraints="NO" id="jDU-n8-WrX">
@@ -319,7 +319,7 @@
         <!--ClipMap App-->
         <scene sceneID="yng-Bm-gzF">
             <objects>
-                <viewController id="ImE-ND-4BY" customClass="ClipMapViewController" customModule="MyAppToBuddyBuild" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ImE-ND-4BY" customClass="ClipMapViewController" customModule="MyProfileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="llg-mE-aKR"/>
                         <viewControllerLayoutGuide type="bottom" id="fOF-NL-BkL"/>
@@ -328,7 +328,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG" translatesAutoresizingMaskIntoConstraints="NO" id="Sq5-W6-Ewp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG2" translatesAutoresizingMaskIntoConstraints="NO" id="Sq5-W6-Ewp">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnQ-qP-dQm">
@@ -390,7 +390,7 @@
         <!--Get in Touch (JSON)-->
         <scene sceneID="aaT-Pa-I5n">
             <objects>
-                <viewController id="gyv-Ob-Y5v" customClass="GetInTouchViewController" customModule="MyAppToBuddyBuild" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gyv-Ob-Y5v" customClass="GetInTouchViewController" customModule="MyProfileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vno-D2-Dyf"/>
                         <viewControllerLayoutGuide type="bottom" id="xdK-3P-bdi"/>
@@ -399,7 +399,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG" translatesAutoresizingMaskIntoConstraints="NO" id="MI6-LN-ZyB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBG2" translatesAutoresizingMaskIntoConstraints="NO" id="MI6-LN-ZyB">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50C-5i-xeV">
@@ -513,7 +513,7 @@
         <image name="Previous" width="128" height="128"/>
         <image name="beckend_clipart" width="300" height="302"/>
         <image name="design_clipart" width="313" height="313"/>
-        <image name="mainBG" width="502" height="501"/>
+        <image name="mainBG2" width="502" height="501"/>
         <image name="next" width="128" height="128"/>
         <image name="thiago" width="269" height="269"/>
         <image name="thiago_perfil" width="837" height="837"/>
